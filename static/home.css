@@ -26,6 +26,7 @@
     font-size: 12pt;
     text-decoration: none;
     overflow:hidden;
+    text-overflow: hidden;
 }
 
 .menu-home a:hover {
