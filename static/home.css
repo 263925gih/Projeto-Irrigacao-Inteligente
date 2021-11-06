@@ -23,6 +23,7 @@
     color: #FFF;
     font-size: 12pt;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .menu-home a:hover {
@@ -43,16 +44,19 @@
 .home-header img {
     width: 50%;
     height: 50%;
+    overflow: hidden;
 }
 
 .card-image-titulo img{
     margin: auto 150px;
+    overflow: hidden;
 }
 
 .home-sobre h1{
     max-width: 400px;
     text-align: center;
     padding: 40px 5px 3px 100px;
+    overflow: hidden;
 }
 
 .card-image-sobre {
@@ -71,19 +75,23 @@
     flex: 2;
     display:flex;
     justify-content: center;
+    overflow: hidden;
 }
 .card-image-sobre p {
   text-align: center;
   font-size: 13pt;
+    overflow: hidden;
 }
 
 .card-image p span.destaque {
   color: #008299;
   font-weight: bold;
+    overflow: hidden;
 }
 
 .app-image-sobre {
     max-width: 1000px;
+    overflow: hidden;
 }
 
 
@@ -96,14 +104,17 @@
 
 #home .card h1 {
     color: #008299;
+    overflow: hidden;
 }
 
 #home .card .card-body.sobre {
     padding: 100px 100px 0 100px;
+    overflow: hidden;
 }
 
 .app-image {
     max-width: 50%;
+    overflow: hidden;
 }
 
 .card-image {
@@ -111,28 +122,33 @@
     justify-content: center;
     align-items: center;
     margin: 100px auto;
+    overflow: hidden;
 }
 
 .card-image img {
   margin: auto 120px;
   flex: 1;
+    overflow: hidden;
 }
 
 .card-image-description {
     flex: 2;
     display:flex;
     justify-content: center;
+    overflow: hidden;
 }
 .card-image p {
   max-width: 400px;
   /* padding: 20px; */
   text-align: center;
   font-size: 16pt;
+    overflow: hidden;
 }
 
 .card-image p span.destaque {
   color: #008299;
   font-weight: bold;
+    overflow: hidden;
 }
 
 .footer {
