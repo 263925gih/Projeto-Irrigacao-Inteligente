@@ -149,6 +149,10 @@
     .menu-home{
         width: 100%;
     }
+     .div{
+        width: 100%;
+    }
+    
     .h1{
         font-size: 27px;
     }
@@ -168,6 +172,9 @@
         width: 30%;
     }
     .menu-home{
+        width: 30%;
+    }
+    .div{
         width: 30%;
     }
 }
