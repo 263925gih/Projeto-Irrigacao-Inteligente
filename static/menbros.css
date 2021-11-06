@@ -34,3 +34,176 @@
     height: 430px;
     padding: 35px;
 }
+
+@media screen and (max-width:640px){
+    .card{
+        width: 100%;
+    }
+    .menu-home{
+        width: 100%;
+    }
+    .containerr{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .home-sobre{
+        width: 100%;
+    }
+    .app-image{
+        width: 100%;
+    }
+    .app-image-sobre{
+        width: 100%;
+    }
+    .bem-vindos{
+        width: 100%;
+    }
+    .card-body.sobre{
+        width: 100%;
+    }
+    .card-image{
+        width: 100%;
+    }
+    .card-image-description{
+        width: 100%;
+    }
+    .card-image-description-sobre{
+        width: 100%;
+    }
+    .card-image-sobre{
+        width: 100%;
+    }
+    .card-image-titulo{
+        width: 100%;
+    }
+    .home-header-documentacao{
+        width: 100%;
+    }
+    .mainmenu{
+        width: 100%;
+    }
+    .menu-navega{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .submenu{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .flex1{
+        width: 100%;
+    }
+    .flex2{
+        width: 100%;
+    }
+    .none{
+        width: 100%;
+    }
+    .div{
+        width: 100%;
+    }
+    .h1{
+        font-size: 27px;
+    }
+    .h2{
+        font-size: 27px;
+    }
+    .h3{
+        font-size: 27px;
+    }
+    h4{
+        font-size: 27px;
+    }
+}
+
+@media screen and(min-width:940px){
+    .card{
+        width: 30%;
+    }
+    .card-body.sobre{
+        width: 30%;
+    }
+    .card-image{
+        width: 30%;
+    }
+    .containerr{
+        width: 30%;
+    }
+    .none{
+        width: 30%;
+    }
+    .card-image-description{
+        width: 30%;
+    }
+    .card-image-description-sobre{
+        width: 30%;
+    }
+    .card-image-sobre{
+        width: 30%;
+    }
+    .card-image-titulo{
+        width: 30%;
+    }
+    .menu-home{
+        width: 30%;
+    }
+    .app-image{
+        width: 30%;
+    }
+    .app-image-sobre{
+        width: 30%;
+    }
+    .bem-vindos{
+        width: 30%;
+    }
+    .home-header{
+        width: 30%;
+    }
+    .footer{
+        width: 30%;
+    }
+    .home-sobre{
+        width: 30%;
+    }
+    .div{
+        width: 30%;
+    }
+    .container{
+        width: 30%;
+    }
+    .home-header-documentacao{
+        width: 30%;
+    }
+    .mainmenu{
+        width: 30%;
+    }
+    .menu-navega{
+        width: 30%;
+    }
+    .navigation{
+        width: 30%;
+    }
+    .submenu{
+        width: 30%;
+    }
+    .flex1{
+        width: 30%;
+    }
+    .flex2{
+        width: 30%;
+    }
+}
+
+
+
+.card .card-body.sobre .card-image .card-image-description .card-image-description-sobre .card-image-sobre
+.card-image-titulo .container .div .footer .h1 .h2 .h3 .home-header .home-header-documentacao .home-sobre
+.mainmenu .menu-home .menu-navega .navigation .submenu .app-image .app-image-sobre .bem-vindos .none .flex1 .flex2{
+    overflow: hidden;
+}
