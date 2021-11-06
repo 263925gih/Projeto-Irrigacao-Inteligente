@@ -1,0 +1,168 @@
+.bem-vindos{
+    background: #FFF;
+    display: block;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.menu-home {
+    background: #1c1c1c;
+    display: block;
+    margin: 0;
+    padding: 7px 0px 7px 1000px;
+    
+    align-self: flex-end;
+}
+
+.menu-home a,
+.menu-home a:visited {
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.menu-home a:hover {
+    background: #000;
+    color: #0AACCC;
+}
+
+.home-header {
+    background: #09855bd8;
+    display: 60%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+
+.home-header img {
+    width: 50%;
+    height: 50%;
+}
+
+.card-image-titulo img{
+    margin: auto 150px;
+}
+
+.home-sobre h1{
+    max-width: 400px;
+    text-align: center;
+    padding: 40px 5px 3px 100px;
+}
+
+.card-image-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-image-sobre img {
+    overflow: auto;
+    zoom: 1;
+}
+.card-image-description-sobre {
+    flex: 2;
+    display:flex;
+    justify-content: center;
+}
+.card-image-sobre p {
+  text-align: center;
+  font-size: 13pt;
+}
+
+.card-image p span.destaque {
+  color: #008299;
+  font-weight: bold;
+}
+
+.app-image-sobre {
+    max-width: 1000px;
+}
+
+
+#home .card {
+    max-width: 98%;
+    margin: 10px;
+    font-size: 12pt;
+}
+
+#home .card h1 {
+    color: #008299;
+}
+
+#home .card .card-body.sobre {
+    padding: 100px 100px 0 100px;
+}
+
+.app-image {
+    max-width: 50%;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.card-image img {
+  margin: auto 120px;
+  flex: 1;
+}
+
+.card-image-description {
+    flex: 2;
+    display:flex;
+    justify-content: center;
+}
+.card-image p {
+  max-width: 400px;
+  /* padding: 20px; */
+  text-align: center;
+  font-size: 16pt;
+}
+
+.card-image p span.destaque {
+  color: #008299;
+  font-weight: bold;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+
+    text-align: center;
+    background-color:#09855bd8;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFF;
+}
+
+@media screen and (max-width:640px){
+    .card{
+        width: 100%;
+    }
+    .h1{
+        font-size: 27px;
+    }
+    .h2{
+        font-size: 27px;
+    }
+    .h3{
+        font-size: 27px;
+    }
+    h4{
+        font-size: 27px;
+    }
+}
+
+@media screen and(min-width:940px){
+    .card{
+        width: 30%;
+    }
+}
+
