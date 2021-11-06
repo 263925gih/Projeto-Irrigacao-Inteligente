@@ -146,6 +146,9 @@
     .card{
         width: 100%;
     }
+    .menu-home{
+        width: 100%;
+    }
     .h1{
         font-size: 27px;
     }
@@ -162,6 +165,9 @@
 
 @media screen and(min-width:940px){
     .card{
+        width: 30%;
+    }
+    .menu-home{
         width: 30%;
     }
 }
