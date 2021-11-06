@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 12px;
+    overflow: hidden;
 }
 
 .menu-home {
@@ -12,7 +13,7 @@
     display: block;
     margin: 0;
     padding: 7px 0px 7px 1000px;
-    
+    overflow: hidden;
     align-self: flex-end;
 }
 
@@ -36,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     color: #FFF;
+    overflow: hidden;
 }
 
 .home-header img {
@@ -58,6 +60,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    overflow: hidden;
 }
 
 .card-image-sobre img {
@@ -88,6 +91,7 @@
     max-width: 98%;
     margin: 10px;
     font-size: 12pt;
+    overflow: hidden;
 }
 
 #home .card h1 {
@@ -134,12 +138,12 @@
 .footer {
     float: left;
     width: 100%;
-
     text-align: center;
     background-color:#09855bd8;
     font-size: 17px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #FFF;
+    overflow: hidden;
   }
 
 @media screen and (max-width:640px){
