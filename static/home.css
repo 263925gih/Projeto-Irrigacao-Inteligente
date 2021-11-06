@@ -16,6 +16,7 @@
     overflow: hidden;
     align-self: flex-end;
     color: #FFF;
+    text-overflow: hidden;
 }
 
 .menu-home a,
