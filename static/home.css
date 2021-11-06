@@ -24,7 +24,7 @@
     color: #FFF;
     font-size: 12pt;
     text-decoration: none;
-    
+    overflow:hidden;
 }
 
 .menu-home a:hover {
