@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DOCUMENTAÇÃO</title>
+
+    <link rel="stylesheet" href="static/home.css">
+    <link rel="stylesheet" href="static/documentacao.css">
+    <link rel="stylesheet" href="static/main.css">
+
+    <script src="static/teste.js"></script>
+
+</head>
+
+<body class="home overflow-hidden">
+    <div class="home-header-documentacao">
+        <img id="about" class="logo-img" src="imagens/coollogo_com-232901210.gif">
+    </div>
+    <div class="container">
+        <nav class="navigation">
+            <div class="menu-navega">
+                <ul class="mainmenu">
+                    <li><img src="imagens/home_icon-icons.com_73532.png" alt="home"><a href="index.html">Home</a></li>
+                    <li><img src="imagens/3507745-business-card-finance-iconoteka-membership-payment_107686.png"
+                            alt="menbros"><a href="membros.html">Membros</a></li>
+                    <li><img src="imagens/live_documents_15410.png" alt=""><a href="">Documentos</a>
+                        <ul class="submenu">
+                            <li><a href="documentacao.html">Documento de Visão</a></li>
+                            <li><a href="identidadeVisual.html">Identidade Visual</a></li>
+                        </ul>
+                    </li>
+                    <li><img src="imagens/paper_negative_icon_184118.png" alt="pontoNegativo"><a href="postMortem.html">PostMortem</a></li>
+                    <li><img src="imagens/1495574612-map-location-solid-style-15_84563.png" alt="mapadaTela"><a href="mapadaTela.html">Mapa da Telas</a></li>
+                    <li><img src="imagens/metodologia.png" alt="metodologia"><a href="metodologia.html">Metodologia</a></li>
+                    <li><img src="imagens/justificativa.png" alt="justificativa"><a href="justificativa.html">Justificativa</a></li>
+                    <li><img src="imagens/review_icon_152110.png" alt="RevisãoTeórica"><a href="revisaoTeorica.html">Revisão Teórica</a></li>
+                    <li><img src="imagens/apresentacoes.png" alt="apresentações"><a href="apresentacoes.html">Apresentações</a></li>
+                    <li><img src="imagens/identidade visual.png" alt="indentidadeVisual"><a href="identidadeVisual.html">Indentidade Visual</a></li>
+                    <a href="https://github.com/263925gih/Projeto-Irrigacao-Inteligente.git" target='_blank'>REPOSITÓRIO</a>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="col-md-9 col-xs-12 full">
+                <div class="row">
+                    <h1 class="blog-title-pro">Documento de Visão</h1>
+                </div>
+                <div class="post-content well">
+                    <article class="content">
+                        <div class="post">
+                            <p>
+                                <a href="#1-introdução">1. Introdução</a> <br />
+                                <a href="#2-posicionamento">2. Posicionamento</a> <br />
+                                <a href="#3-descrições-dos-envolvidos-e-dos-usuários">3. Descrições dos Envolvidos e dos
+                                    Usuários</a> <br />
+                                <a href="#4-visão-geral-do-produto">4. Visão Geral do Produto</a> <br />
+                                <a href="#5-requisitos-funcionais">5. Requisitos Funcionais</a> <br />
+                                <a href="#6-restrições">6. Restrições</a> <br />
+                                <a href="#7-requisitos-não-funcionais">7. Requisitos Não Funcionais</a>
+                            </p>
+                            <hr />
+
+                            <h2 id="1-introdução">1. Introdução</h2>
+                            <p>
+                                Hoje em dia é praticamente impossível imaginar uma área em que não seja necessário um apoio tecnológico, seja em âmbito profissional ou pessoal. 
+                                Quem não investe em tecnologia, pode não evoluir e ficar estacionado no tempo, o que para as instituições comerciais, produtivas ou de prestação de serviços, 
+                                pode incorrer em prejuízos ou perda de competitividade. No setor agrícola não poderia ser diferente. Para evoluir e obter bons resultados os agricultores começaram 
+                                a investir e implantar novas tecnologias a fim de melhorar suas lavouras, a qualidade e a produtividade, além de almejam consequentemente maior produtividade em suas culturas. 
+                                O termo atualmente utilizado para denominar o fenômeno da implementação tecnológica no campo é “agricultura de precisão”, uma área ainda recente no Brasil, mas que tem ganhado 
+                                espaço e volume de negócios bastante significativos nos últimos anos.
+                                <br> Agricultura de precisão requer o uso de diversas tecnologias e visam a maximizar a produtividade e reduzir os custos dos processos de produção agrícola. Percebe-se na atualidade 
+                                a inserção da tecnologia em diferentes segmentos agrícolas, como por exemplo, na produção de hortaliças, frutas e verduras, que neste estudo será o ambiente utilizado como objeto de estudo, 
+                                ou seja, em que se pretende desenvolver um processo automatizado de irrigação. Conforme salienta Santos (1998, p. 3) “Para melhorar a qualidade e a produtividade das plantações em estufa, é 
+                                necessário monitorar e controlar várias grandezas físicas que interagem entre si”. Guimarães (2011, p.11) por sua vez afirma que: entre os sistemas de grande importância, se destaca a irrigação, 
+                                capaz de fornecer um elemento imprescindível para a planta. Porém, esta tarefa não é tão simples, pois é necessário definir quando irrigar e a quantidade de água que se deve aplicar. A utilização 
+                                de um sistema de irrigação automatizado inteligente reduz não só falhas humanas como também o consumo de insumos e o custo de produção.
+                            </p>
+
+                            <h3 id="11-finalidade">1.1 Finalidade</h3>
+                            <p>
+                                Desenvolver um sistema automatizado de irrigação inteligente que possa monitorar e controlar a umidade de solo baseado na tecnologia Arduino, podendo assim oferecer ao usuário dados de monitoramento 
+                                e automatizar as tarefas. Além disso, espera-se obter o entendimento da estrutura, modos de aplicação, benefícios, funcionamento e uso desta tecnologia juntamente com sistemas de irrigações e sensores.
+                            </p>
+                            
+                            <h3 id="12-escopo">1.2 Escopo</h3>
+                            <p>
+                                São tratados neste documento os pontos necessários para a elaboração da aplicação, desde a concepção do projeto até a implantação, de forma que possam ser entendidos sem o total conhecimento dos termos 
+                                técnicos utilizados por desenvolvedores.
+                            </p>
+
+                            <h3 id="13-definições-acrônimos-e-abreviações">1.3 Definições, Acrônimos e Abreviações</h3>
+                            <p>Abaixo serão apresentados alguns conceitos de documentação de software desejáveis para o melhor entendimento deste documento 
+                               e termos aplicados ao contexto da universidade:
+                            </p>
+                            <ol>
+                                <li>IFRO – Instituto Federal de Educação, Ciência e Tecnologia Rondônia.</li>
+                                <li>IDE – Ambiente de Desenvolvimento Integrado.</li>
+                                <li>UML – Unified Modeling Language (Linguagem De Modelagem Unificada).</li>
+                                <li>LDR – Light Dependet Resistor.</li>
+                                <li>IOT – Internet Das Coisas.</li>
+                                <li>MQTT – Message Queue Telemetry Transport.</li>
+                                <li>FAO - Organização das Nações Unidas para Alimentação e Agricultura.</li>
+                            </ol>
+                            
+                            <h3 id="14-referências">1.4 Referências</h3>
+                            <p>
+                                GIOMO, Diogo.  <strong>Desenvolvimento De Um Sistema De Irrigação Automatizado De Baixo Custo.
+                            </strong> 2019. 107 f. Dissertação (Mestrado) - Curso de Pós-Graduação em Engenharia de Energia na Agricultura, 
+                            Universidade Estadual do Oeste do Paraná, Cascavel, Paraná, 2019. Disponível em: https://www5.unioeste.br/portalunioeste/arq/files/PPGEA/Dissertacao.Diogo.Giomo.pdf. 
+                            Acesso em: 05 set. 2021.
+                            </p>
+                            <p>
+                                MADALOSSO, Emanoeli. <strong>Sistema Automatizado para Irrigação de Estufas. </strong> 2014. 80 f. TCC (Graduação) - Curso de Engenharia de Computação, Universidade 
+                                Tecnológica Federal do Paraná – Utfpr, Pato Branco, 2014. Disponível em: http://repositorio.roca.utfpr.edu.br/jspui/handle/1/2097. 
+                                Acesso em: 05 set. 2021.
+                            </p>
+                            <p>
+                                REIS, Jéssica Sarto dos.  <strong>Sistema de Controle Aplicado à Automação Agrícola.</strong> 2015. 73 f. TCC (Graduação) - Curso de Tecnologia em Automação Industrial 
+                                - Coaut, Universidade Tecnológica Federal do Paraná. Cornéli Procópio, 2015. Disponível em: http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/6523/8/CP_COAUT_2015_1_05.pdf. 
+                                Acesso em: 05 set. 2021. 
+                            </p>
+
+                            <h3 id="15-visão-geral">1.5 Visão Geral</h3>
+                            <p>
+                                O projeto desenvolvido é um sistema de irrigação automatizado utilizando a plataforma Arduino, onde é possível identificar que o sistema é uma composição de vários sistemas menores, 
+                                tendo como principais componentes: um sistema de controle, um sistema hidráulico e um sistema web.
+                                <br>  O sistema de controle tem como objetivo fazer a ligação entre os demais sistemas e o tratamento das informações provenientes dos mesmos. Sua função principal é fazer a leitura dos 
+                                sensores (umidade e temperatura) e definir quando é necessário acionar a irrigação disponibilizada pelo sistema hidráulico. Além disso, ele troca informações com o sistema web possibilitando 
+                                que o usuário tenha um domínio total sobre o sistema de controle.
+                                <br> Sistema hidráulico recebe uma alimentação hidráulica e aciona a irrigação quando o sistema de controle define que é necessário. 
+                                <br> Sistema web possibilita que o usuário faça conexão com o sistema de irrigação através do uso do serviço wireless e, a partir de uma interface web, possa efetuar o controle e configuração. 
+                            </p>
+
+                            <h2 id="2-posicionamento">2. Posicionamento</h2>
+                            <h3 id="21-oportunidade-de-negócios">2.1 Oportunidade de Negócios</h3>
+                            <p>
+                                O grande desafio da agricultura moderna é conseguir produzir mais alimentos com menos recursos. A tecnologia é uma aliada para otimizar essas produções e minimizar os impactos ambientais, sem diminuir a qualidade dos produtos.
+                                Porém, muitos agricultores não possuem acesso a essas tecnologia, devido à falta de conhecimento técnico e o alto custo de instalação.
+                                Sendo assim, a oportunidade de negócio podemos oferecer para agricultores, fazendas urbanas, famílias e empresas que possuem jardins e hortas.
+                            </p>
+
+                            <h3 id="22-descrição-do-problema">2.2 Descrição do Problema</h3>
+                            <table>
+                                <tr><th> O problema         </th><td> A falta de recurso financeiro para os pequenos agricultores. </td></tr>
+                                <tr><th> Afeta                 </th><td> Uma instalação com baixo custo.</td></tr>
+                                <tr><th> cujo impacto é        </th><td> A falta de precisão para garantir os níveis adequados de umidade na plantação.</td></tr>
+                                <tr><th>Uma boa solução seria </th><td>Um sistema de instalação que seria a irrigação inteligente utilizando sensores que poderiam captar a umidade do solo e mandar uma resposta para o sistema para poder mandar a quantidade de água adequada.</td></tr>
+                            </table>
+
+                            <h3 id="23-sentença-de-posição-do-produto">2.3 Sentença de Posição do Produto</h3>
+                            <table>
+                                <tr><th>Para</th><td>Grupo de agricultores com um mesmo objetivo.</td></tr>
+                                <tr><th>Que</th><td>Necessitam obter uma irrigação inteligente. </td></tr>
+                                <tr><th>O</th><td>Irrigação inteligente.</td></tr>
+                                <tr><th>Que</th><td>Possuem plantações. </td></tr>
+                                <tr><th>Nosso produto</th><td>Cadastrar plantio, umidade de solo, relacionados a realidade que o agricultor está precisando referente ao plantio.</td></tr>
+                            </table>
+
+                            <h2 id="3-descrições-dos-envolvidos-e-dos-usuários">3. Descrições dos Envolvidos e dos Usuários</h2>
+                        <h3 id="31-resumo-dos-envolvidos">3.1 Resumo dos Envolvidos</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th>Responsabilidades</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Clientes</td>
+                                    <td>Agricultores</td>
+                                    <td>Adquirir</td>
+                                </tr>
+                                <tr>
+                                    <td>Coaches</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Equipe de  Desenvolvimento</td>
+                                    <td>Equipe de alunos do IFRO de método de desenvolvimento de projeto.</td>
+                                    <td>Planejar, desenvolver e implementar o sistema.</td>
+                                </tr>
+                                <tr>
+                                    <td>Equipe de Gestores  de Projeto</td>
+                                    <td>Equipe de alunos do IFRO da disciplina de tecnologia da informação e meio ambiente.</td>
+                                    <td>Planejar, desenvolver e gerenciar o projeto.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 id="32-resumo-dos-usuários">3.2 Resumo dos Usuários</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center">Nome</th>
+                                    <th style="text-align: center">Descrição</th>
+                                    <th style="text-align: center">Responsabilidades</th>
+                                    <th style="text-align: center">Envolvido</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center">Administrador</td>
+                                    <td style="text-align: center">Figura de monitoramento</td>
+                                    <td style="text-align: center">Administrador exerce o papel de avaliar a legitimidade dos dados fornecidos.</td>
+                                    <td style="text-align: center">Corpo acadêmico do instituto.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center">Usuário Comum</td>
+                                    <td style="text-align: center">Alunos, professores</td>
+                                    <td style="text-align: center">Projeto de irrigação inteligente.</td>
+                                    <td style="text-align: center">Corpo acadêmico do instituto.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 id="33-perfis-dos-envolvidos">3.3 Perfis dos Envolvidos</h3>
+                        <h4 id="331-equipe-de-desenvolvedores">3.3.1 Equipe de Desenvolvedores</h4>
+                        <table>
+                            <tr>
+                                <td><b>Representantes</b></td>
+                                <td>Héloa da Silva Alves<br />
+                                    Marcos Johnny Rodrigues Rocha
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Descrição</b></td>
+                                <td>Desenvolvedores do Projeto</td>
+                            </tr>
+                            <tr>
+                                <td><b>Tipo</b></td>
+                                <td>Graduandos de Análise e Desenvolvimento de Sistemas no Instituto Federal De Rondônia –IFRO, matriculados na disciplina de Tecnologia Da Informação E Meio Ambiente.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Critérios de Sucesso</b></td>
+                                <td>Entregar aplicação no prazo para a disciplina de Tecnologia da Informação e Meio Ambiente e aumentar a experiência na área de desenvolvimento de projeto.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Envolvimento</b></td>
+                                <td>Alto.</td>
+                            </tr>
+                        </table>
+
+                        <h4 id="332-equipe-de-gestores">3.3.2 Equipe de Gestores</h4>
+                        <table>
+                            <tr>
+                                <td><b>Representantes</b></td>
+                                <td>Héloa da Silva Alves
+                                    <br />Marcos Johnny Rodrigues Rocha
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Descrição</b></td>
+                                <td>Gestores do Projeto.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Tipo</b></td>
+                                <td>Graduandos de Análise e Desenvolvimento de Sistemas no Instituto Federal De Rondônia –IFRO, matriculados na disciplina de Tecnologia Da Informação E Meio Ambiente.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Responsabilidades</b></td>
+                                <td>Efetuar todo o planejamento do projeto, projetar a aplicação, programar os recursos definidos do projeto e gerenciar a equipe de desenvolvedores, escopo, custo, riscos e requisitos.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Critérios de Sucesso</b></td>
+                                <td>Entregar aplicação no prazo para a disciplina de Tecnologia da Informação e Meio Ambiente e aumentar a experiência na área de desenvolvimento de projeto.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Envolvimento</b></td>
+                                <td>Alto.</td>
+                            </tr>
+                        </table>
+
+                        <h3 id="34-perfil-dos-usuários">3.4 Perfil dos Usuários</h3>
+                        <h4 id="341-administrador">3.4.1 Administrador</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><strong>Representante</strong></th>
+                                    <th>Responsavel Tecnico pelo Aplicativo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Descrição</strong></td>
+                                    <td>Moderar comportamento inadequado dentro do sistema (mal funcionamento).</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tipo</strong></td>
+                                    <td>Representante técnico designado pela equipe.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Responsabilidades</strong></td>
+                                    <td>Analisar o funcionamento do sistema.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Critérios de Sucesso</strong></td>
+                                    <td>AAplicativo de fácil acesso e uso pelo cliente.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Envolvimento</strong></td>
+                                    <td>Usuário especial do sistema.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Produtos Liberados</strong></td>
+                                    <td>-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h4 id="342-usuário-comum">3.4.2 Usuário comum</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><strong>Representante</strong></th>
+                                    <th>Corpo acadêmico da universidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Descrição</strong></td>
+                                    <td>Gerenciar o projeto.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tipo</strong></td>
+                                    <td>Desenvolvedores.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Responsabilidades</strong></td>
+                                    <td>Efetuar manutenção no sistema desenvolvido.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Critérios de Sucesso</strong></td>
+                                    <td>Obter um software resultante capaz de prover todos os requisitos.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Envolvimento</strong></td>
+                                    <td>Usuário final do sistema.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Produtos Liberados</strong></td>
+                                    <td><br />----</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 id="35-principais-necessidades-dos-usuários-ou-dos-envolvidos">3.5 Principais Necessidades dos Usuários ou dos Envolvidos</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Necessidade</th>
+                                    <th>Prioridade</th>
+                                    <th>Preocupação</th>
+                                    <th>Solução Atual</th>
+                                    <th>Solução Proposta</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Buscar agricultores dispostos a investir. </td>
+                                    <td>Alta</td>
+                                    <td>Falta de cliente interessados</td>
+                                    <td>Buscar em todas localidades</td>
+                                    <td>Mostrar um protótipo do projeto.</td>
+                                </tr>
+                                <tr>
+                                    <td>Conhecimento da umidade adequada para o solo de cada plantação </td>
+                                    <td>Alta</td>
+                                    <td>Para a plantação receber água na quantidade certa</td>
+                                    <td>Pesquisar sobre a umidade de cada solo de cada plantação </td>
+                                    <td>Informa ao cliente a melhor solução</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3 id="36-alternativas-e-concorrência">3.6 Alternativas e Concorrência</h3>
+                        <h4 id="361-catraca-livre">3.6.1 Startup</h4>
+                        <p>
+                            A história da IrriGate, startup fundada por estudantes de Engenharia Eletrônica e Engenharia da 
+                            Computação da Pontifícia Universidade Católica do Paraná (PUCPR), que foca em serviços com sistema de 
+                            irrigação inteligente para agricultores, começou como um projeto de avaliação final em uma matéria da 
+                            faculdade. 
+                            E acabou se transformando em empresa, cujas soluções já estão sendo implementadas.
+                        </p>
+                        <h4 id="362--what3wordsw3w">3.6.2  Facima</h4>
+                        <p>
+                            Desenvolvemos um sistema que sabe quando é necessário acionar ou desligar os aspersores de irrigação 
+                            de forma inteligente, fazendo esse processo através da umidade do solo.
+                        </p>
+                        
+                        <h2 id="4-visão-geral-do-produto">4. Visão Geral do Produto</h2>
+                        <h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto</h3>
+                        <p>
+                            O grande desafio da agricultura moderna é conseguir produzir mais alimentos com menos recursos. A tecnologia 
+                            é uma aliada para otimizar essas produções e minimizar os impactos ambientais, sem diminuir a qualidade dos produtos. 
+                            Isso pode ser observado nas práticas de irrigação, que possibilitam o controle das culturas de forma eficiente, sem desperdício 
+                            de energia elétrica e de água. Por outro lado, muitos agricultores não possuem acesso a essas tecnologias, devido à falta de 
+                            conhecimento técnico e o alto custo de instalação. Sendo assim, eles utilizam métodos empíricos para a aplicação de água em suas lavouras, 
+                            aumentando o uso desse recurso, além do consumo desnecessário de energia elétrica. Fica evidente que a falta de controle no processo de irrigação 
+                            causa prejuízos para o produtor rural. O mesmo já enfrenta a competitividade no mercado agrícola, tendo o risco de diminuir a qualidade dos produtos 
+                            e aumentar seus custos de produção.
+                            <br>Dessa maneira, a Organização das Nações Unidas para Alimentação e Agricultura (FAO), aponta que 70% de toda a água doce disponível no mundo é 
+                            utilizada para a agricultura, sendo a irrigação a maior consumidora. (FAO, 2009). Segundo Azevedo (2002), é comum a utilização de bombas elétricas para 
+                            levar a água dos reservatórios até as áreas irrigadas. Com o aumento dos custos da energia elétrica, torna-se cada vez mais importante a utilização de técnicas
+                             para o controle adequado das culturas, possibilitando uma diminuição nos custos dos sistemas de irrigação. O autor ainda defende que o manejo correto das plantações
+                              melhora a produtividade e minimiza a necessidade de bombeamento de água, reduzindo os custos de energia elétrica.
+                            <br>Portanto, a necessidade de um sistema para a automação da irrigação, acessível para produtores rurais, é essencial. O mesmo possibilita que o processo de irrigação 
+                            seja feito de forma eficaz, sustentável, em qualquer horário e sem a necessidade de intervenção humana.    
+                        </p>
+                        <h3 id="42-resumo-dos-recursos">4.2 Resumo dos Recursos</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center">Código</th>
+                                    <th>Recurso</th>
+                                    <th>Benefício</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center">R01</td>
+                                    <td>Instalar o sistema de irrigação inteligente.</td>
+                                    <td>Ajudar os usuários a desempenhar com mais facilidade o trabalho de irrigação atendendo suas necessidades.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center">R02</td>
+                                    <td>GCadastrar permissões</td>
+                                    <td>Permitir que o cliente faça cadastro de usuários dando permissões para cada usuário.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center">R03</td>
+                                    <td>Umidade</td>
+                                    <td>Permitir o fácil acesso de verificar a umidade do solo.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2 id="5-requisitos-funcionais">5. Requisitos Funcionais</h2>
+                        <p>
+                            Obtenção de informações detalhadas sobre o que se pretende fazer. Os requisitos funcionais são todos 
+                            os problemas e necessidades que devem ser atendidos e resolvidos pelo software por meio de funções ou 
+                            serviços.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Codigo</th>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th>Categoria</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>RF1</td>
+                                    <td>Detectar umidade</td>
+                                    <td>O sensor de umidade fará leituras da umidade do solo.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF2</td>
+                                    <td>Verificar a umidade</td>
+                                    <td>
+                                        O sensor enviará o dado de umidade lido para o servidor, que verificará, por meio de uma comparação 
+                                        com seu banco de dados, se o valor está adequado. Se o valor estiver próximo do nível crítico de umidade, 
+                                        o sensor receberá como resposta que o solo precisa ser irrigado. Caso o solo esteja sendo irrigado e o valor 
+                                        lido for adequado, o sistema alertará o sensor que já foi irrigado o suficiente.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF3</td>
+                                    <td>Ligar a válvula</td>
+                                    <td>O microcontrolador envia um sinal para abrir as válvulas das estufas que precisam ser irrigadas.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF4</td>
+                                    <td>Desligar a válvula</td>
+                                    <td>O microcontrolador envia um sinal para fechar as válvulas das estufas que já atingiram a umidade adequada.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF5</td>
+                                    <td>Cadastrar Solos</td>
+                                    <td>O banco de dados terá um cadastro de tipos de solos que será atualizado conforme a demanda.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF6</td>
+                                    <td>Cadastrar Umidade</td>
+                                    <td>O banco de dados terá um cadastro de tipos de umidade dos solos que será atualizado conforme a demanda.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF7</td>
+                                    <td>Cadastrar usuários</td>
+                                    <td>
+                                        O administrador do sistema irá cadastrar um usuário sempre que um novo usuário desejar utilizar o sistema, informando 
+                                        seu nome completo e um nome para login.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF8</td>
+                                    <td>Realizar login</td>
+                                    <td>
+                                        Tanto administradores quanto usuários devem realizar login para utilizar o sistema.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF9</td>
+                                    <td>Cadastrar Estufas e sensores</td>
+                                    <td>
+                                        Após a implantação do sistema em uma propriedade, o administrador irá cadastrar as 
+                                        estufas da propriedade, cadastrando também um novo sensor associado a ela.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF10</td>
+                                    <td>Cadastrar Plantio</td>
+                                    <td>
+                                        O usuário poderá cadastrar um plantio sempre que realizar o plantio de uma estufa, 
+                                        informando a estufa que foi plantada, qual a cultura plantada e a data em que ocorreu o plantio.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF11</td>
+                                    <td>Vê Plantio Cadastrado</td>
+                                    <td>
+                                        O usuário poderá visualizar os plantios que realizou, sabendo o que foi plantado em cada estufa 
+                                        e em que data o plantio aconteceu.
+                                    </td>
+                                    <td>Regras de Negócio</td>
+                                </tr>
+                                <tr>
+                                    <td>RF12</td>
+                                    <td>Verificar Informações</td>
+                                    <td>
+                                        O usuário poderá verificar informações de sua propriedade, verificando que plantio está plantado 
+                                        em cada estufa, qual a umidade lida pelo sensor e se a válvula da estufa está aberta ou fechada.
+                                    </td>
+                                    <td>Regras de Negócio</td>
+                                </tr>
+                                <tr>
+                                    <td>RF13</td>
+                                    <td>Trocar Senha</td>
+                                    <td>
+                                        Tanto administradores quanto usuários poderão alterar sua senha.
+                                    </td>
+                                    <td>Regras de Negócio</td>
+                                </tr>
+                                <tr>
+                                    <td>RF14</td>
+                                    <td>Recuperar Senha</td>
+                                    <td>
+                                        O usuário ou administrador poderá recuperar sua senha em caso de 
+                                        esquecimento, informando para isto seu login cadastrado no sistema.
+                                    </td>
+                                    <td>Regras de Negócio</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2 id="6-restrições">6. Restrições</h2>
+                        <ul>
+                            <li>
+                                <p>Os sensores de umidade tem que está funcionando corretamente, fazendo 
+                                    assim a dosagem correta da agua.
+
+                                </p>
+                            </li>
+                            <li>
+                                <p>Bastante sensível ao entupimento dos orifícios de saída de agua. </p>
+                            </li>
+                            <li>
+                                <p>O sistema funcionará mediante uma conexão de rede pelo menos 
+                                    satisfatória e será mantido em um servidor e uma nuvem.</p>
+                            </li>
+                        </ul>
+
+                        <h2 id="7-requisitos-não-funcionais">7. Requisitos Não Funcionais</h2>
+                        <p>
+                            São todos aqueles relacionados à forma como o software tornará 
+                            realizado o que está sendo planejado; ou seja, descreve como será 
+                            feito. Todos os pré-requisitos do sistema, de hardware, software e 
+                            operacionais são documentados separadamente.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Codigo</th>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th>Categoria</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>RF1</td>
+                                    <td>Interfalos das Leituras</td>
+                                    <td>
+                                        O sensor deverá fazer as leituras constantemente, mesmo que o solo demore para seca. (Desempenho)
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF2</td>
+                                    <td>Acesso</td>
+                                    <td>
+                                        O sistema apresenta fácil interligação mediante a entrada do usuário.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF3</td>
+                                    <td>Prazo</td>
+                                    <td>O projeto básico deve ser concluído no prazo de 01 (um) mês, tendo data d
+                                        e entrega marcada para o dia 31 de outubro de 2021.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF4</td>
+                                    <td>Backup</td>
+                                    <td>O sistema deve realizar backup pré-definidos.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF5</td>
+                                    <td>Releases</td>
+                                    <td>O sistema deverá ser projetado para ser incrementado com novas funcionalidades, 
+                                        para estar sempre atualizado com a demanda do usuário e com a evolução tecnológica do sistema.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF6</td>
+                                    <td>Usabilidade</td>
+                                    <td>O sistema possibilita uma interação em tempo real entre usuário e seu empreendimento.</td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF7</td>
+                                    <td>Cadastro</td>
+                                    <td>
+                                        O sistema armazena as consultas ou cadastro no Sistema Gerencial de Banco de Dados – SGBD.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                <tr>
+                                    <td>RF8</td>
+                                    <td>Gerenciamento</td>
+                                    <td>
+                                        O sistema permite que o usuário avalie rapidamente e em tempo real, se todos os processos 
+                                        e procedimentos estão dentro dos limites definidos em estudos ou fixados anteriormente.
+                                    </td>
+                                    <td>Obrigatório</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </article>
+
+                    <hr />
+                    <div class="panel-body">
+                        <h4>Outros Documentos</h4>
+                        <ul>
+                            <li class="relatedPost">
+                                <a href="postMortem.html">PostMortem</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="mapadaTela.html">Mapa de Telas</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="metodologia.html">Metodologia</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="justificativa.html">Justificativa</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="revisaoTeorica.html">Revisão Teórica</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="apresentacoes.html">Apresentações</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="identidadeVisual.html">Identidade Visual</a>
+                            </li>
+                        </ul>
+                    </div>
+        </section>
+    </div>
+</body>
+<hr>
+<div class="footer">
+    Projeto de pesquisa apresentado ao Instituto Federal de Rondônia (IFRO), como parte das exigências para aprovação na
+    disciplina de Tecnologia da Informação e Meio Ambiente e Metodologia Científica do curso
+    Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS). Área de concentração: Tecnologias da Informação.
+    <br>
+    Orientador: Prof. Fernando Ferreira Pinheiro,<br>
+    Orientadora: Ilma Rodrigues de Souza Fausto.
+</div>
+</html>

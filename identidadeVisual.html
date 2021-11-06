@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Apresentações</title>
+
+    <link rel="stylesheet" href="static/home.css">
+    <link rel="stylesheet" href="static/documentacao.css">
+    <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/apresentacao.css">
+
+    <script src="static/teste.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body class="home overflow-hidden">
+    <div class="home-header-documentacao">
+        <img id="about" class="logo-img" src="imagens/coollogo_com-232901210.gif">
+    </div>
+    <div class="container">
+        <nav class="navigation">
+            <div class="menu-navega">
+                <ul class="mainmenu">
+                    <li><img src="imagens/home_icon-icons.com_73532.png" alt="home"><a href="index.html">Home</a></li>
+                    <li><img src="imagens/3507745-business-card-finance-iconoteka-membership-payment_107686.png"
+                            alt="menbros"><a href="membros.html">Membros</a></li>
+                    <li><img src="imagens/live_documents_15410.png" alt=""><a href="">Documentos</a>
+                        <ul class="submenu">
+                            <li><a href="documentacao.html">Documento de Visão</a></li>
+                        </ul>
+                    </li>
+                    <li><img src="imagens/paper_negative_icon_184118.png" alt="pontoNegativo"><a
+                            href="postMortem.html">PostMortem</a></li>
+                    <li><img src="imagens/1495574612-map-location-solid-style-15_84563.png" alt="mapadaTela"><a
+                            href="mapadaTela.html">Mapa da Telas</a></li>
+                    <li><img src="imagens/metodologia.png" alt="metodologia"><a href="metodologia.html">Metodologia</a>
+                    </li>
+                    <li><img src="imagens/justificativa.png" alt="justificativa"><a
+                            href="justificativa.html">Justificativa</a></li>
+                    <li><img src="imagens/review_icon_152110.png" alt="RevisãoTeórica"><a
+                            href="revisaoTeorica.html">Revisão Teórica</a></li>
+                    <li><img src="imagens/apresentacoes.png" alt="apresentações"><a href="apresentacoes.html">Apresentações</a></li>
+                    <li><img src="imagens/identidade visual.png" alt="indentidadeVisual"><a href="identidadeVisual.html">Indentidade Visual</a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <a href="https://github.com/263925gih/Projeto-Irrigacao-Inteligente.git" target='_blank'>REPOSITÓRIO</a>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="col-md-9 col-xs-12 full">
+                <div class="row">
+                    <h1 class="blog-title-pro">Identidade Visual</h1>
+                </div>
+
+                <div class="post-content well">
+                    <article class="content">
+
+                            <div id="slider">
+                                <a href="#" class="control_next">></a>
+                                <a href="#" class="control_prev">></a>
+                                <ul>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (8).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (9).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (10).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (11).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (12).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (13).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (14).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (15).png" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="identidade visual/Apresentação sem título (16).png" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <script>
+                                $(function () {
+                                    $('#checkbox').change(function () {
+                                        setInterval(function () {
+                                            moveRight();
+                                        }, 3000);
+                                    });
+                                    var slideCount = $('#slider ul li').length;
+                                    var slideWidth = $('#slider ul li').width();
+                                    var slideHeight = $('#slider ul li').height();
+                                    var sliderUlWidth = slideCount * slideWidth;
+                                    $('#slider').css({
+                                        width: slideWidth,
+                                        height: slideHeight
+                                    });
+                                    $('#slider ul').css({
+                                        width: sliderUlWidth,
+                                        marginLeft: -slideWidth
+                                    });
+                                    $('#slider ul li:last-child').prependTo('#slider ul');
+                                    function moveLeft() {
+                                        $('#slider ul').animate({
+                                            left: +slideWidth
+                                        }, 200, function () {
+                                            $('#slider ul li:last-child').prependTo('#slider ul');
+                                            $('#slider ul').css('left', '');
+                                        });
+                                    };
+                                    function moveRight() {
+                                        $('#slider ul').animate({
+                                            left: -slideWidth
+                                        }, 200, function () {
+                                            $('#slider ul li:first-child').appendTo('#slider ul');
+                                            $('#slider ul').css('left', '');
+                                        });
+                                    };
+                                    $('a.control_prev').click(function () {
+                                        moveLeft();
+                                    });
+                                    $('a.control_next').click(function () {
+                                        moveRight();
+                                    });
+                                });
+                            </script>
+                    </article>
+
+                    <hr />
+                    <div class="panel-body">
+                        <h4>Outros Documentos</h4>
+                        <ul>
+                            <li class="relatedPost">
+                                <a href="postMortem.html">PostMortem</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="mapadaTela.html">Mapa de Telas</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="metodologia.html">Metodologia</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="justificativa.html">Justificativa</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="revisaoTeorica.html">Revisão Teórica</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="apresentacoes.html">Apresentações</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<hr>
+<div class="footer">
+    Projeto de pesquisa apresentado ao Instituto Federal de Rondônia (IFRO), como parte das exigências para aprovação na
+    disciplina de Tecnologia da Informação e Meio Ambiente e Metodologia Científica do curso
+    Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS). Área de concentração: Tecnologias da Informação.
+    <br>
+    Orientador: Prof. Fernando Ferreira Pinheiro,<br>
+    Orientadora: Ilma Rodrigues de Souza Fausto.
+</div>
+
+</html>

@@ -1,0 +1,36 @@
+.containerr{
+    display: inline-block;
+    display: block;
+    padding: 25px;
+}
+
+.none{
+    -webkit-box-flex: none;
+    flex: none;
+    width: 100%;
+
+}
+.flex1{
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.flex2{
+    -webkit-box-flex: 2;
+    flex: 2;
+}
+.containerr ul li{
+    display: inline-block;
+}
+
+.containerr p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.containerr img{
+    width: 350px;
+    height: 430px;
+    padding: 35px;
+}

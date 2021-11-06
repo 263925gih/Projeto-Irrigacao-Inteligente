@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Metodologia</title>
+
+    <link rel="stylesheet" href="static/home.css">
+    <link rel="stylesheet" href="static/documentacao.css">
+    <link rel="stylesheet" href="static/main.css">
+
+    <script src="static/teste.js"></script>
+
+</head>
+
+<body class="home overflow-hidden">
+    <div class="home-header-documentacao">
+        <img id="about" class="logo-img" src="imagens/coollogo_com-232901210.gif">
+    </div>
+    <div class="container">
+        <nav class="navigation">
+            <div class="menu-navega">
+                <ul class="mainmenu">
+                    <li><img src="imagens/home_icon-icons.com_73532.png" alt="home"><a href="index.html">Home</a></li>
+                    <li><img src="imagens/3507745-business-card-finance-iconoteka-membership-payment_107686.png"
+                            alt="menbros"><a href="membros.html">Membros</a></li>
+                    <li><img src="imagens/live_documents_15410.png" alt=""><a href="">Documentos</a>
+                        <ul class="submenu">
+                            <li><a href="documentacao.html">Documento de Visão</a></li>
+                            <li><a href="identidadeVisual.html">Identidade Visual</a></li>
+                        </ul>
+                    </li>
+                    <li><img src="imagens/paper_negative_icon_184118.png" alt="pontoNegativo"><a href="postMortem.html">PostMortem</a></li>
+                    <li><img src="imagens/1495574612-map-location-solid-style-15_84563.png" alt="mapadaTela"><a href="mapadaTela.html">Mapa da Telas</a></li>
+                    <li><img src="imagens/metodologia.png" alt="metodologia"><a href="metodologia.html">Metodologia</a></li>
+                    <li><img src="imagens/justificativa.png" alt="justificativa"><a href="justificativa.html">Justificativa</a></li>
+                    <li><img src="imagens/review_icon_152110.png" alt="RevisãoTeórica"><a href="revisaoTeorica.html">Revisão Teórica</a></li>
+                    <li><img src="imagens/apresentacoes.png" alt="apresentações"><a href="apresentacoes.html">Apresentações</a></li>
+                    <li><img src="imagens/identidade visual.png" alt="indentidadeVisual"><a href="identidadeVisual.html">Indentidade Visual</a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <a href="https://github.com/263925gih/Projeto-Irrigacao-Inteligente.git" target='_blank'>REPOSITÓRIO</a>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                    <li><img src="" alt=""><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="col-md-9 col-xs-12 full">
+                <div class="row">
+                    <h1 class="blog-title-pro">ORGANIZAÇÃO DO PROJETO</h1>
+                    <h1 class="blog-title-pro">(METODOLOGIA)</h1>
+                </div>
+                <div class="post-content well">
+                    <article class="content">
+                        <div class="post">
+                            <p>
+                                <a href="#1-solução-proposta">1. Solução Proposta</a> <br />
+                                <a href="#1.1-definição-da-arquitetura-do-projeto">1.1. Fase I – Definição Da Arquitetura Do Projeto</a> <br />
+                                <a href="#1.1.1-composição-do-projeto">1.1.1. Composição do projeto</a> <br />
+                                <a href="#1.1.2-funcionamento">1.1.2. Funcionamento</a> <br />
+                                <a href="#1.2-fase-2-componentes-de-software">1.2. Fase 2 - Componentes De Software, Apis E Frameworks De Desenvolvimento</a> <br />
+                                <a href="#1.3-Fase-3-Protocolos-De-Comunicação-A-Serem-Utilizados">1.3. Fase 3 - Protocolos De Comunicação A Serem Utilizados </a> <br />
+                                <a href="#1.4-Fase-4-Linguagens-De-Programação">1.4. Fase 4 - Linguagens De Programação </a><br/>
+                                <a href="#1.5-Fase-5-Hardwares-Utilizados-Esquemático-De-Integração">1.5. Fase 5 - Hardwares Utilizados Esquemático De Integração </a><br/>
+                                <a href="#1.6-Fase-6-Integração-Com-Alguma-Nuvem-Computacional">1.6. Fase 6 - Integração Com Alguma Nuvem Computacional  </a><br/>
+                                <a href="#1.7-Fase-7-Testes-De-Funcionalidade">1.7. Fase 7 - Testes De Funcionalidade</a><br/>
+                            </p>
+                            <hr />
+
+                            <h2 id="1-solução-proposta">1. Solução Proposta</h2>
+                            <h2 id="1.1-definição-da-arquitetura-do-projeto">1.1 Fase I – Definição Da Arquitetura Do Projeto</h2>
+                            <h3 id="1.1.1-composição-do-projeto">1.1.1 Composição do projeto</h3>
+                            <p>
+                                O projeto desenvolvido é um sistema de irrigação automatizado utilizando a plataforma Arduino, onde é possível identificar que o sistema é uma composição de vários sistemas menores, tendo como 
+                                principais componentes: um sistema de controle, um sistema hidráulico e um sistema web.
+                                <br>O sistema de controle tem como objetivo fazer a ligação entre os demais sistemas e o tratamento das informações provenientes dos mesmos. Sua função principal é fazer a leitura dos sensores 
+                                (umidade e temperatura) e definir quando é necessário acionar a irrigação disponibilizada pelo sistema hidráulico. Além disso, ele troca informações com o sistema web possibilitando que o usuário 
+                                tenha um domínio total sobre o sistema de controle.
+                                <br>O sistema hidráulico recebe uma alimentação hidráulica e aciona a irrigação quando o sistema de controle define que é necessário. 
+                                <br>O sistema web possibilita que o usuário faça conexão com o sistema de irrigação através do uso do serviço wireless e, a partir de uma interface web, possa efetuar o controle e configuração. 
+                            </p>
+
+                            <h3 id="1.1.2-funcionamento">1.1.2 Funcionamento</h3>
+                            <p>
+                                A ativação do mecanismo ocorre conforme mudanças nas condições pré-configuradas. Assim, qualquer alteração detectada pelos sensores irá ocasionar uma reação no sistema, sendo 
+                                que a bomba de água será acionada de acordo com os dados recebidos pelos sensores de temperatura e umidade do solo. O processo de irrigação ocorre da seguinte forma: durante o 
+                                dia, se a temperatura ultrapassar os 39º C e a umidade do solo estiver abaixo de 65%, a bomba é acionada até que a umidade atinja 95%. Caso a umidade do solo esteja abaixo de 
+                                60% e a temperatura abaixo de 38° C, a bomba é acionada até a umidade chegar aos 90%. Em dias de chuva, a bomba não é acionada.
+                            </p>
+                            
+                            <h2 id="1.2-fase-2-componentes-de-software">1.2. Fase 2 - Componentes De Software, Apis E Frameworks De Desenvolvimento</h2>
+                            <ul>
+                                <li>
+                                    <p>
+                                        IDE (ambiente de desenvolvimento integrado) do Arduíno com adição de bibliotecas internas que podem ser incluídas no código em desenvolvimento. As funções da IDE 
+                                        do Arduino são basicamente duas: Permitir o desenvolvimento de um software e enviá-lo à placa para que possa ser executado. (SITE ARDUINO). 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Microsoft Visual Studio é um ambiente de desenvolvimento integrado da Microsoft para desenvolvimento de software especialmente dedicado ao .NET Framework e 
+                                        às linguagens Visual Basic, C, C++, C# e F#.  
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        PostgreSQL é uma ferramenta que atua como sistema de gerenciamento de bancos de dados relacionados. Seu foco é permitir implementação da linguagem SQL
+                                        em estruturas, garantindo um trabalho com os padrões desse tipo de ordenação dos dados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tinkercad é uma ferramenta online de design de modelos 3D em CAD e também de simulação de circuitos elétricos analógicos e digitais, desenvolvida pela Autodesk.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Astah Community é um software para modelagem UML (Unified Modeling Language – Linguagem de Modelagem Unificada) com suporte a UML 2, que disponibiliza 
+                                        para desenvolvimento: diagramas de Classes, Casos de Uso, Sequência, Comunicação, Maquina de Estados, Atividade, Componentes, Implantação e Diagrama 
+                                        de Estrutura Composta.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Entity Framework: é um mapeador moderno de banco de dados de objeto para .NET. Ele dá suporte a consultas, controle de alterações, atualizações e 
+                                        migrações de esquema. O EF funciona com muitos bancos de dados, incluindo o PostgresSQL
+                                    </p>
+                                </li>
+                            </ul>
+                            
+                            <h2 id="1.3-Fase-3-Protocolos-De-Comunicação-A-Serem-Utilizados">1.3. Fase 3 - Protocolos De Comunicação A Serem Utilizados </h2>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Os protocolos a serem utilizados serão: servidor, internet, interface de rede (arduino), microcontrolador, sensor, válvula solenoide e 
+                                        microcomputador (celular) que será conectado através da internet web com o servidor (banco de dados).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Servidor: contém o banco de dados, que armazenara as informações da irrigação referente a leitura que o sensor irar fazer do solo.
+                                        O sistema irar fazer uma comparação dos valores enviados com os cadastrados, e enviara uma mensagem se necessita de irrigação.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Interface de rede: para a troca de informações com o servidor e o microcontrolador e necessário uma interface de rede para o acesso à internet.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Microcontrolador: necessita da interface de rede para se comunicar com o servidor, enviando os dados coletados para o banco de dados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Sensor: e adicionado no solo para poder ler a umidade do solo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Válvula solenoide: distribuição de agua alimentado por uma montagem de mangueira e conectado ao um reservatório de agua, 
+                                        assim a válvula solenoide liga ou desliga a saída de agua.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Microcomputador (celular): com o aplicativo instalado, terá a comunicação com o servidor através da nuvem. 
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <h2 id="1.4-Fase-4-Linguagens-De-Programação">1.4. Fase 4 - Linguagens De Programação </h2>
+                            <ul>
+                                <li>
+                                    <p>
+                                        C#:  A linguagem C# é uma linguagem que visa facilitar muito o desenvolvimento, 
+                                        e possui uma vasta gama de recursos que podem proporcionar uma grande produtividade para 
+                                        desenvolvedores que a utilizam. Além dos recursos como sua sintaxe e programação orientada a 
+                                        objetos, que fazem dela uma linguagem poderosa para se trabalhar. Aliada ao uso do framework .NET, 
+                                        é possível criar diversos tipos de aplicações, e ainda ter um ambiente onde o desenvolvedor pode focar 
+                                        na sua lógica o tempo todo, sem se preocupar com a gerência de recursos, já que que o próprio framework 
+                                        se encarrega de cuidar disso.   
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        C e C++: A linguagem de programação padrão do Arduino se baseia em C e C++. Ele pode ser usado de 
+                                        independente para controlar diversos equipamentos ou até mesmo criar outros.     
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <h2 id="1.5-Fase-5-Hardwares-Utilizados-Esquemático-De-Integração">1.5. Fase 5 - Hardwares Utilizados Esquemático De Integração </h2>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Microcontrolador: é um dispositivo semicondutor em forma de circuito integrado, que integra as 
+                                        partes básicas de um microcomputador - microprocessador, memórias não-voláteis e voláteis e 
+                                        portas de entrada e saída.
+                                        <br>Geralmente, é limitado em termos de quantidade de memória, principalmente no que diz 
+                                        respeito à memória de dados, é utilizado em aplicações específicas, ou seja, naquelas 
+                                        que não necessitam armazenar grandes quantidades de dados, como automação residencial, 
+                                        automação predial, automação industrial e automação embarcada. (GIMENEZ, 2005, p. 4).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Arduíno: é uma plataforma de prototipagem eletrônica, criado por Massimo Banzi e David 
+                                        Cuartielles em 2005 com objetivo de permitir o desenvolvimento de controle de sistemas interativos, 
+                                        de baixo custo e acessível a todos. O projeto foi criado pensando em artistas e armadores, ou seja, 
+                                        não é necessário ter conhecimentos prévios em eletrônica ou programação para iniciar-se no mundo 
+                                        Arduino. (SABER ELETRÔNICA, 2006).  
+                                        <br>            Com o Arduino é possível também enviar e receber informações de praticamente qualquer 
+                                        outro sistema eletrônico. Desta forma é possível construir, por exemplo, um sistema de captação de dados 
+                                        de sensores, como temperatura, iluminação, processar e enviar esses dados para um sistema remoto por 
+                                        exemplo.
+                                        <br>Outra característica importante é que todo material (software, bibliotecas, hardware) é open-source, 
+                                        ou seja, pode ser reproduzido e usado por todos sem a necessidade de pagamento de royalties ou direitos 
+                                        autorais. (SABER ELETRÔNICA, 2006).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Válvulas Solenóides: Para irrigação, as válvulas são utilizadas principalmente para setorizar 
+                                        diferentes áreas de irrigação e/ou aumentar a pressão utilizando diferentes bombas.  
+                                        <br>A válvula solenóide é um equipamento que tem muitas utilizações na área de controle de fluidos em tubulações, 
+                                        principalmente de modo digital (liga-desliga). Ela é formada por duas partes principais, que são: corpo e 
+                                        a bobina solenóide. Possui uma bobina que é formada por um fio enrolado através de um cilindro. Quando uma 
+                                        corrente elétrica passa por este fio, ela gera uma força no centro da bobina solenóide, fazendo com que o 
+                                        êmbolo da válvula seja acionado, criando assim o sistema de abertura e fechamento.
+                                        <br>Existem diversos tipos de válvulas que podem ser utilizadas em irrigação e seu acionamento pode ocorrer 
+                                        basicamente de quatro formas: manual, elétrico, hidráulico e pneumático. (PEREZ, 2011).
+                                        <br>As válvulas com controle elétrico possuem sua abertura ou fechamento controlados através de acionamento 
+                                        elétrico, por corrente ou pulsos, com diferentes Tensões. Esse acionamento é feito por um solenóide.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Relé de acionamento da válvula solenóide: Para acionar a válvula, foi usado um módulo relé de 5V. 
+                                        O relé funciona como interface entre o microcontrolador e a válvula de solenóide. Um relé eletromecânico 
+                                        comum é um interruptor ou chave eletromecânica, acionado quando se estabelece uma corrente através de uma 
+                                        bobina. Quando se aplica uma tensão na bobina, uma corrente circula, criando um campo magnético que atrai 
+                                        a armadura e, portanto, aciona o sistema de contatos. Uma importante característica do relé é que ele pode 
+                                        ser energizado com correntes muito pequenas 54 em relação à corrente que o circuito controlado exige para 
+                                        funcionar. Isso significa a possibilidade de se controlar circuitos de altas correntes como motores, 
+                                        lâmpadas e máquinas industriais, diretamente a partir de dispositivos eletrônicos fracos como transistores
+                                        e circuitos integrados. (RIBEIRO, 1999).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Sensores Fotoelétricos:O LDR (Light Dependent Resistor), como o próprio nome diz, é um resistor cuja 
+                                        resistência varia em função da luminosidade que incide sobre ele, devido ao material fotossensível que 
+                                        cobre o componente. Os LDRs são compostos por sulfeto de cádmio (CdS), um material semicondutor, que é 
+                                        disposto num traçado onduloso na superfície do componente. Esse material tem a propriedade de diminuir 
+                                        sua resistência à passagem da corrente elétrica quando a luminosidade sobre ele aumenta. Ao iluminarmos 
+                                        um LDR, a sua resistência apresenta valores muito baixos. Ao cortarmos a iluminação, a resistência sobe. 
+                                        Esta característica possibilita a utilização deste componente para desenvolver um sensor que é ativado 
+                                        (ou desativado) quando sobre ele incidir certa luminosidade. (TOMAZINI & ALBUQUERQUE, 2005).
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <h2 id="1.6-Fase-6-Integração-Com-Alguma-Nuvem-Computacional">1.6 Fase 6 - Integração Com Alguma Nuvem Computacional </h2>
+                            <p>
+                                Desenvolveremos um aplicativo que poderá ter acesso às informações enviadas para o banco de dados via internet (nuvem). 
+                                Com o aplicativo será possível verificação dos dados relacionados a irrigação.
+                                <br>O software realiza o controle dos sensores de umidade e do rele (que controla a válvula solenoide). Os dados capturados 
+                                pelo software/ sensores são enviados para a nuvem, ou seja, espaço na internet, onde ficam hospedados em 
+                                um servidor de aplicação Ubidots IOT platform, desenvolvido com a tecnologia MQTT (Message Queue Telemetry 
+                                Transport) método bastante útil para IOT (Internet das Coisas), cujo principal uso é proporcionar 
+                                comunicação entre máquinas, ou seja, Machine-to-Machine (M2M). Desse modo, após os dados estarem 
+                                armazenados na nuvem, foi desenvolvido um aplicativo que possibilita o acesso a essas informações via 
+                                internet. Com o aplicativo, e possível verificar os dados relacionados a irrigação.
+                                <br>O protocolo MQTT será utilizado junto a uma solução chamada CloudMQTT, que é um sistema web que 
+                                disponibiliza um broker para aplicações em Internet das Coisas. O Arduino será um publicador (publisher), 
+                                enquanto a Web API será o inscrito (subscriber) que receberá os dados publicados pelos publisher. O 
+                                CloudMQTT proporciona maior facilidade na configuração de um broker e os tópicos necessários para a 
+                                comunicação entre publicadores e inscritos. Primeiramente, para a configuração de um broker no CloudMQTT, 
+                                é necessário criar uma conta na solução, como sugere a documentação (CLOUDMQTT, 2017). Após a criação da 
+                                conta, é preciso criar uma instância de um broker no painel de controle (Panel Control) 
+                            </p>
+
+                            <h2 id="1.7-Fase-7-Testes-De-Funcionalidade">1.7. Fase 7 - Testes De Funcionalidade</h2>
+                            <p>
+                                Primeiramente, com a utilização da IDE da ferramenta online Tinkercad foi realizado a montagem do esquema 
+                                de ligação de todo o sistema; desde o microcontrolador (placa Arduíno); passando pela conexão e instalação 
+                                dos resistores, led’s e visor digital na 1ª protoboard (placa de montagem); realizando nova conexão com a 
+                                2ª protoboard (placa de montagem) com instalação do resistor, transistor, relé e válvula solenóide e 
+                                posterior ligação a uma fonte externa (motor-bomba). Finalizando, com a instalação do sensor de umidade 
+                                conectado ao microcontrolador (placa Arduíno).
+                                <br>O teste de funcionalidade do projeto teve como parâmetro o esquema de ligação do sistema com todos os 
+                                hardwares e o software envolvido para sua execução e aplicação, após o esquema montado no campo monitor e 
+                                inserção do código de programação na IDE Tinkercad, foi acionada a simulação no botão “iniciar simulação”, 
+                                com isso houve o acionamento (ligação) do conector USB (carga) fazendo todo o sistema energizar e estar 
+                                apto as simulações.
+                                <br>Após o funcionamento do sistema e leitura inicial do componente, foi realizado o início das simulações 
+                                de leitura do sensor de umidade, onde após cada leitura do sensor ocorre o acionamento dos led’s 
+                                cadastrados para aquela situação de várias umidades críticas (mín e máx) e conforme enquadramento é 
+                                acionado o relé para ativar ou desligar a válvula solenóide, tornando um ciclo contínuo do sistema do 
+                                projeto.
+                                <br>As várias leituras das umidades são armazenadas no próprio sistema, estando acessível para serem 
+                                analisadas da melhor forma possível, dentro dos parâmetros que o sistema requer ou para realizar 
+                                modificações futuras de adequações.
+                                <br>Não foi realizado teste físico com a utilização de hardware e componentes elétricos, pelo 
+                                motivo que o kit Arduíno disponibilizado pelo nosso grupo não tinha várias componentes essências 
+                                (sensor de umidade, válvula solenóide e motor), também pelo lapso temporal muito curto (01 meses) 
+                                para implementação e funcionamento do projeto; desta forma, não foi possível dispôr desses componentes 
+                                até mesmo para comprar em site especializado.
+                            </p>
+                        </div>
+                    </article>
+
+                    <hr />
+                    <div class="panel-body">
+                        <h4>Outros Documentos</h4>
+                        <ul>
+                            <li class="relatedPost">
+                                <a href="postMortem.html">PostMortem</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="mapadaTela.html">Mapa de Telas</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="justificativa.html">Justificativa</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="revisaoTeorica.html">Revisão Teórica</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="apresentacoes.html">Apresentações</a>
+                            </li>
+                            <li class="relatedPost">
+                                <a href="identidadeVisual.html">Identidade Visual</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<hr>
+<div class="footer">
+    Projeto de pesquisa apresentado ao Instituto Federal de Rondônia (IFRO), como parte das exigências para aprovação na
+    disciplina de Tecnologia da Informação e Meio Ambiente e Metodologia Científica do curso
+    Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS). Área de concentração: Tecnologias da Informação.
+    <br>
+    Orientador: Prof. Fernando Ferreira Pinheiro,<br>
+    Orientadora: Ilma Rodrigues de Souza Fausto.
+</div>
+</html>
