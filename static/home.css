@@ -17,6 +17,7 @@
     align-self: flex-end;
     color: #FFF;
     text-overflow: hidden;
+    text-decoration-color: #FFF;
 }
 
 .menu-home a,
@@ -27,6 +28,7 @@
     text-decoration: none;
     overflow:hidden;
     text-overflow: hidden;
+    text-decoration-color: #FFF;
 }
 
 .menu-home a:hover {
